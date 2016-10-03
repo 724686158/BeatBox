@@ -24,7 +24,7 @@ public class Sound {
         mAssetPath = assetPath;
         String[] components = assetPath.split("/");
         String filenames = components[components.length - 1];
-        mName = filenames.replace(".war", "");
+        mName = filenames.replace(".wav", "");
     }
 
     public String getAssetPath() {
